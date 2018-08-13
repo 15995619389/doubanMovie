@@ -51,7 +51,7 @@ export default {
         };
 
       this.$http.get(movieUrl).then(res => {
-          console.log( res.data);
+          // console.log( res.data);
           this.list = res.data.subjects
           this.title = res.data.title
           this.loading = false

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/views/index'
+import Header from '@/views/header'
 import Search from '@/views/search'
 import Detail from '@/views/detail'
 import vueR from '@/vueRouter/index1'
@@ -16,7 +17,6 @@ export default new Router({
       path: '/',
       name: 'index',
       component: Index,
-
     },
     {
       path: '/search/:searchKey',
